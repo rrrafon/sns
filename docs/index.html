@@ -115,7 +115,7 @@
 <link rel='apple-touch-icon' href='index.apple-touch-icon.png'/>
 <script>
 
-function startRecording(fn = 'create_n_say.webm', timerec = 3000) {
+function startRecording(fn = 'create_n_say.mov', timerec = 3000) {
   const chunks = []; // here we will store our recorded media chunks (Blobs)
   const stream = canvas.captureStream(); // grab our canvas MediaStream
   const rec = new MediaRecorder(stream); // init the recorder
